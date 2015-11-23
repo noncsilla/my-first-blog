@@ -8,27 +8,27 @@
 		<link rel="stylesheet" href="{% static 'css/blog.css' %}">
 	</head>
 	<body>
-		<div class="whole-post">
-			<div class="page-header">
-				<h1><a href="http://www.facebook.com/aminakozpont">MiaCica's Blog</a></h1>
-			<br>
-			<hr>
-			</div>
 
-				{% for post in posts %}
-			<div class="post-title">
-				<h1><a href="">{{ post.title }}</a></h1>
-			</div>
-			<div class="published">
-				<p>published: {{ post.published_date }}</p>
-			</div>
-			<div class="author">	
-				<p>author: {{ post.author }}</p>
-			</div>	
-			<div class="text">
-				<p>{{ post.text|linebreaks }}</p>
-			</div>
-				{% endfor %}
+		<div class="page-header">
+			<h1><a href="http://www.facebook.com/aminakozpont">MiaCica's Blog</a></h1>
+		<br>
+		<hr>
 		</div>
+
+			{% for post in posts %}
+		<div class="post-title">
+			<h1><a href="">{{ post.title }}</a></h1>
+		</div>
+		<div class="published">
+			<p>published: {{ post.published_date }}</p>
+		</div>
+		<div class="author">	
+			<p>author: {{ post.author }}</p>
+		</div>	
+		<div class="text">
+			<p>{{ post.text|linebreaks }}</p>
+		</div>
+			{% endfor %}
+	
 	</body>
 </html>
