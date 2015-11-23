@@ -35,12 +35,13 @@
 .top-menu, .top-menu:hover, .top-menu:visited {
 		color: #ffffff;
 		float: right;
-		font-size: 26pt;
+		font-size: 0pt;
 		margin-right: 20px;
 	}
 
 .post-title h1 a, .post h1 a:visited {
 		color: #4E235B;
+		font-size: 26pt;		
 		margin-top: 40px;		
 		margin-left: 40px;
 	}
@@ -59,7 +60,7 @@
 .text {
 		color: #C335F2;
 		font-size: 14pt;
-		font-family: 'Calibri', bold;
+		font-family: 'Calibri', cursive;
 		margin-left: 40px;
 		margin-bottom: 70px;		
 }
