@@ -44,11 +44,19 @@
 		margin-left: 40px;		
 	}
 
-.post h1 a, .post h1 a:visited {
+.post-title h1 a, .post h1 a:visited {
 		color: #35C3F2;
 		margin-left: 40px;
 	}
 .published {
+		color: #C335F2;
+		margin-left: 40px;
+}
+.author {
+		color: #C335F2;
+		margin-left: 40px;
+}
+.text {
 		color: #C335F2;
 		margin-left: 40px;
 }
