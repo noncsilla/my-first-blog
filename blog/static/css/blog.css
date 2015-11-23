@@ -1,5 +1,5 @@
 .page-header {
-		background-color: #ff9400;
+		background-color: #4E235B;
 		margin-top: 0;
 		padding: 20px 20px 20px 40px;
 	}
@@ -11,6 +11,7 @@
 	}
 
 .content {
+		background-color: #DEC3E6;
 		margin-left: 40px;
 	}
 
@@ -21,7 +22,6 @@
 .date {
 		float: right;
 			color: #64F235;
-			font-size: 15pt;		
 	}
 
 .save {
