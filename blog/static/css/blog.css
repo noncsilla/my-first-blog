@@ -47,3 +47,6 @@
 .post h1 a, .post h1 a:visited {
 		color: #35C3F2;	
 	}
+.published {
+		color: #C335F2;	
+}
