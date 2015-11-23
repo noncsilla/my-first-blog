@@ -11,7 +11,7 @@
 	}
 
 .content {
-		background-color: #ffffff;
+		background-color: #4E235B;
 		margin-left: 40px;
 	}
 
@@ -29,7 +29,6 @@
 	}
 
 .post-form textarea, .post-form input {
-		background-color: #4E235B;
 		width: 100%;
 	}
 
