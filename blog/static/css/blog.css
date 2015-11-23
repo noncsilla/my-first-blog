@@ -33,11 +33,14 @@
 	}
 
 .top-menu, .top-menu:hover, .top-menu:visited {
-		color: #4E235B;
+		color: #ffffff;
 		float: right;
 		font-size: 0pt;
 		margin-right: 20px;
 	}
+.body {
+		background-color: #4E235B
+}
 
 .post-title h1 a, .post h1 a:visited {
 		color: #4E235B;
