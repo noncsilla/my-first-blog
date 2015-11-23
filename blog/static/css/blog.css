@@ -21,7 +21,7 @@
 
 .date {
 		float: right;
-			color: #4E235B;
+			color: #ffffff;
 	}
 
 .save {
@@ -33,7 +33,7 @@
 	}
 
 .top-menu, .top-menu:hover, .top-menu:visited {
-		color: #ffffff;
+		color: #4E235B;
 		float: right;
 		font-size: 0pt;
 		margin-right: 20px;
