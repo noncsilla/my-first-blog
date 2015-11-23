@@ -29,6 +29,7 @@
 	}
 
 .post-form textarea, .post-form input {
+		background-color: #4E235B;
 		width: 100%;
 	}
 
@@ -41,7 +42,6 @@
 
 .post-title h1 a, .post h1 a:visited {
 		color: #4E235B;
-		background-color: #4E235B;
 		font-size: 26pt;		
 		margin-top: 40px;		
 		margin-left: 40px;
