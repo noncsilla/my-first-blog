@@ -34,6 +34,7 @@
 
 .top-menu, .top-menu:hover, .top-menu:visited {
 		color: #ffffff;
+		background-color: #4E235B;
 		float: right;
 		font-size: 0pt;
 		margin-right: 20px;
@@ -62,5 +63,5 @@
 		font-size: 14pt;
 		font-family: 'Calibri', cursive;
 		margin-left: 40px;
-		margin-bottom: 70px;		
+		margin-bottom: 40px;		
 }
