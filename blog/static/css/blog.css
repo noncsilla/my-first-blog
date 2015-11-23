@@ -10,13 +10,18 @@
 		text-decoration: none;
 	}
 
+.content {
+		background-color: #ffffff;
+		margin-left: 40px;
+	}
+
 	h1, h2, h3, h4 {
 		font-family: 'Lobster', cursive;
     }
 
 .date {
 		float: right;
-			color: #64F235;
+			color: #ffffff;
 	}
 
 .save {
@@ -34,24 +39,24 @@
 		margin-right: 20px;
 	}
 
-.post {
-		margin-bottom: 70px;
-		margin-left: 40px;		
-	}
-
 .post-title h1 a, .post h1 a:visited {
-		color: #35C3F2;
+		color: #4E235B;
+		margin-top: 40px;		
 		margin-left: 40px;
 	}
 .published {
 		color: #C335F2;
+		font-size: 16pt;
 		margin-left: 40px;
 }
 .author {
 		color: #C335F2;
+		font-size: 16pt;
 		margin-left: 40px;
 }
 .text {
 		color: #C335F2;
+		font-size: 20pt;
 		margin-left: 40px;
+		margin-bottom: 70px;		
 }
