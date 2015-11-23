@@ -38,10 +38,9 @@
 		font-size: 0pt;
 		margin-right: 20px;
 	}
-.body {
-		background-color: #4E235B;
+.post {
+	background-color: #4E235B;
 }
-
 .post-title h1 a, .post h1 a:visited {
 		color: #4E235B;
 		font-size: 26pt;		
