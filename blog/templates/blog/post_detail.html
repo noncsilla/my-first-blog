@@ -25,8 +25,8 @@
 		</div>
 		<hr>
 		<a class="btn btn-default" href="{% url 'add_comment_to_post' pk=post.pk %}">Add comment</a>
-
-
+		
+	{% for comment in post.comments.all %}
 		{% if user.is_authenticated or comment.approved_comment %}
 		<div class="comment">
 			<div class="date">
@@ -40,5 +40,7 @@
 			<p>{{ comment.text|linebreaks }}</p>
 		</div>
 		{% endif %}
-	
+	{% empty %}
+		<p>No comments here yet :(</p>
+	{% endfor %}
 {% endblock %}		
