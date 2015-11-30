@@ -19,8 +19,8 @@
 				<p>{{ post.text|linebreaks }}</p>
 			</div>
 
-			<div class="comment">
-				<a href="{% url 'blog.views.post_detail' pk=post.pk %}">Comments: {{ post.comments.count }}</a>
+			<div class="comment_list">
+				<p>Comments: {{ post.comments.count }}</p>
 			</div>	
 		{% endfor %}
 	{% endblock content %}
